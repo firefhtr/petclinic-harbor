@@ -18,7 +18,7 @@ spec:
         app: petclinic
     spec:
       containers:
-      - image: atortola/spring-petclinic:latest
+      - image: atortola/spring-petclinic:1
         name: petclinic-demo
         ports:
         - containerPort: 8080
