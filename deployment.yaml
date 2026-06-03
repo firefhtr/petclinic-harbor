@@ -18,7 +18,7 @@ spec:
         app: petclinic
     spec:
       containers:
-      - image: suseregistry.suselabs.com/pub/petclinic:latest
+      - image: atortola/spring-petclinic:latest
         name: petclinic-demo
         ports:
         - containerPort: 8080
