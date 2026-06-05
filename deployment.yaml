@@ -34,4 +34,5 @@ spec:
   ports:
   - protocol: TCP
     port: 8080
+    nodePort: 32047  # <-- NodePort explicitly set here
   type: NodePort
